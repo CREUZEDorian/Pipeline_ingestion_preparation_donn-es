@@ -15,7 +15,7 @@ Telco Customer Churn (IBM, via Kaggle) — 7 043 clients, 21 colonnes, tâche de
 | `data/telco_clean.csv` | Jeu de données nettoyé et encodé, prêt pour l'entraînement |
 | `cleaning_data_from_s3.ipynb` | Lecture depuis S3, nettoyage, imputation, encodage — approche notebook |
 | `process_telco.py` | Job **AWS Glue ETL** (PySpark) : filtrage des données via Glue managé |
-| `insert_into_dynamo_db.py` | Insertion du CSV nettoyé dans une table DynamoDB (feature store léger) |
+| `insert_into_dynamo_db.py` | Insertion du CSV nettoyé dans une table DynamoDB  |
 | `requirements.txt` | Dépendances Python |
 
 ## Fonctionnement:
