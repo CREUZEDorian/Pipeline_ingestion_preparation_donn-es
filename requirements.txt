@@ -1,0 +1,4 @@
+scikit-learn
+awswrangler
+boto3
+pandas
